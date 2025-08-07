@@ -64,6 +64,11 @@ export default function NewsletterForm() {
             //   DataverseFieldName: "msdynmkt_topicid;channels;optinwhenchecked",
             //   DataverseFieldValue: "fda62239-dc70-f011-bec2-000d3a11bb02;Email;true",
             // },
+            {
+                FormFieldName: "newsletter",
+                DataverseFieldName: "msdynmkt_purposeid;channels;optinwhenchecked",
+                DataverseFieldValue: "10000000-0000-0000-0000-000000000003;Email;true",
+            },
           ]
           
           form.addEventListener("submit", (e) => {
@@ -175,7 +180,7 @@ export default function NewsletterForm() {
             />
           </div>
 
-          {/* <div className="flex items-start space-x-3 pt-2">
+          <div className="flex items-start space-x-3 pt-2">
             <Checkbox 
               id="newsletter" 
               name="newsletter"
@@ -187,7 +192,7 @@ export default function NewsletterForm() {
             >
               I would like to subscribe to the newsletter and receive updates about new content, promotions, and company news.
             </Label>
-          </div> */}
+          </div>
 
           <Button 
             type="submit" 
