@@ -59,6 +59,14 @@ export default function NewsletterForm() {
               FormFieldName: "email",
               DataverseFieldName: "emailaddress1",
             },
+            {
+                //FormFieldName: "***Please fill***",
+                DataverseFieldName: "a1a_constituenttype",
+                DataverseFieldValue: "740490000",
+                    //{ FormValue: "***Please fill***", DataverseValue: "740490000" }, // Sample 1
+                    //{ FormValue: "***Please fill***", DataverseValue: "740490001" }, // Sample 2
+          
+            },
             // {
             //   FormFieldName: "newsletter",
             //   DataverseFieldName: "msdynmkt_topicid;channels;optinwhenchecked",
