@@ -65,7 +65,7 @@ export default function NewsletterForm() {
             //   DataverseFieldValue: "fda62239-dc70-f011-bec2-000d3a11bb02;Email;true",
             // },
             {
-                FormFieldName: "newsletter[]",
+                //FormFieldName: "newsletter[]",
                 DataverseFieldName: "msdynmkt_purposeid;channels;optinwhenchecked",
                 DataverseFieldValue: "10000000-0000-0000-0000-000000000003;Email;true",
             },
