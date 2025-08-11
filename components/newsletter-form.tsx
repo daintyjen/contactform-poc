@@ -83,7 +83,7 @@ export default function NewsletterForm() {
           
           form.addEventListener("submit", (e) => {
             const serializedForm = window.d365mktformcapture.serializeForm(form, mappings)
-            // console.log(JSON.stringify(serializedForm)); // NOTE: enable for debugging
+            console.log(JSON.stringify(serializedForm)); // NOTE: enable for debugging
             const payload = serializedForm.SerializedForm.build()
             const captureConfig = {
               FormId: "753ede66-db70-f011-bec2-000d3a11bb02",
