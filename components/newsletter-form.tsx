@@ -62,7 +62,7 @@ export default function NewsletterForm() {
             {
                 //FormFieldName: "***Please fill***",
                 DataverseFieldName: "a1a_constituenttype",
-                DataverseFieldValue: "740490000",
+                DataverseFieldValue: ["740490000"],
                     //{ FormValue: "***Please fill***", DataverseValue: "740490000" }, // Sample 1
                     //{ FormValue: "***Please fill***", DataverseValue: "740490001" }, // Sample 2
           
