@@ -62,7 +62,7 @@ export default function NewsletterForm() {
             {
                 //FormFieldName: "***Please fill***",
                 DataverseFieldName: "a1a_constituenttype",
-                DataverseFieldValue: "740490000",
+                DataverseFieldValue: "['740490000']",
                     //{ FormValue: "***Please fill***", DataverseValue: "740490000" }, // Sample 1
                     //{ FormValue: "***Please fill***", DataverseValue: "740490001" }, // Sample 2
           
@@ -77,7 +77,7 @@ export default function NewsletterForm() {
                 //DataverseFieldName: "msdynmkt_purposeid;channels;optinwhenchecked",
                 //DataverseFieldValue: "10000000-0000-0000-0000-000000000003;Email;true",
               DataverseFieldName: "consentsubmissionvalues",
-              DataverseFieldValue: {"msdynmkt_purposeid":"10000000-0000-0000-0000-000000000003", "msdynmkt_topicid":"fda62239-dc70-f011-bec2-000d3a11bb02", "msdynmkt_consenttypevalue":null, "channels":"Email,Text", "optinwhenchecked":"true", "msdynmkt_value":"Opted In", "labelText":"I agree to subscribe", "msdynmkt_compliancesettings4id":"7f4a6355-1811-4cde-bde3-fee8c85f56b1"}
+              DataverseFieldValue: "{\"msdynmkt_purposeid\":\"10000000-0000-0000-0000-000000000003\", \"msdynmkt_topicid\":\"fda62239-dc70-f011-bec2-000d3a11bb02\", \"msdynmkt_consenttypevalue\":null, \"channels\":\"Email\", \"optinwhenchecked\":\"true\", \"msdynmkt_value\":\"Opted In\", \"labelText\":\"I agree to subscribe\", \"msdynmkt_compliancesettings4id\":\"7f4a6355-1811-4cde-bde3-fee8c85f56b1\"}",
             },
           ]
           
